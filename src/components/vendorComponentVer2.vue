@@ -163,7 +163,7 @@ export default {
       <div class="btnArea flex flex-wrap gap-[20px] md:gap-x-[24px] justify-center my-[30px]">
 
         <button type="button"
-          class="text-white  bg-[#437587] hover:bg-[#437587]/80 focus:ring-4 focus:outline-none focus:bg-[#6EC2E0] focus:ring-[#6EC2E0]/50  rounded-[100px] md:text-base text-sm  px-3 md:px-5 py-4 font-medium text-center inline-flex items-center    font-['Noto_Sans_TC']"
+          class= "text-[12px] mb-[30px] md:mb-3  hover:cursor-pointer fontContent text-white  bg-[#437587] hover:bg-[#437587]/80 focus:ring-4 focus:outline-none focus:bg-[#6EC2E0] focus:ring-[#6EC2E0]/50  rounded-[100px] md:text-base text-sm  px-3 md:px-5 py-4 font-medium text-center inline-flex items-center    font-['Noto_Sans_TC']"
           v-for="item in NewsButton" :key="item" v-on:click="bFilter(item)">
           #{{ item }}
         </button>
@@ -299,7 +299,7 @@ export default {
         </button> -->
 
 <a href="/try">
-    <button class="bottom w-full p-[10px] relative text-white text-[16px] font-bold  fontContent" 
+    <button class="text-[12px] mb-[30px] md:mb-3  hover:cursor-pointer fontContent text-white  bg-[#437587] hover:bg-[#437587]/80 focus:ring-4 focus:outline-none focus:bg-[#6EC2E0] focus:ring-[#6EC2E0]/50  rounded-[100px] md:text-base text-sm  px-3 md:px-5 py-4 font-medium text-center inline-flex items-center    font-['Noto_Sans_TC']" 
        id="openBtn">查看全部</button></a>
   </div>
 
@@ -355,16 +355,7 @@ export default {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.bottom::after {
-  content: '';
-  position: absolute;
-  width: 100vw;
-  top: 0;
-  left: -60px;
-  height: 100%;
-  background-color: #E42514;
-  z-index: -100;
-}
+
 .fontTitle{
   font-family:'Noto Serif TC';
 }

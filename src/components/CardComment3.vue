@@ -102,13 +102,13 @@ export default {
 </script>
 <template>
   <div
-    class="cardArea px-[60px] sm:px-[80px] md:px-[100px] 2xl:px-[320px] md:h-[1246px] flex flex-col justify-center relative">
+    class="cardArea px-[60px] sm:px-[80px] md:px-[100px] 2xl:px-[320px]  flex flex-col justify-center relative">
 
     <div class="flex flex-col justify-center ">
       <div class=" ">
         <div class="relative">
           <p
-            class="text-center md:text-5xl leading-loose font-bold font-['Noto_Serif_TC'] text-[21px] min-[576px]:text-[24px]">
+            class="text-center md:text-5xl leading-loose font-bold font-['Noto_Serif_TC'] text-[21px] min-[576px]:text-[24px] my-[30px]">
             推薦住宿</p>
 
           <button
@@ -116,9 +116,9 @@ export default {
             @click='findNearbyHotels'>看看我＠＠</button>
         </div>
         <div
-          class="min-[576px]:grid-cols-2 grid grid-cols-1 md:grid-cols-4 gap-[16px] lg:gap-[24px] justify-center relative">
+          class="min-[576px]:grid-cols-2 grid grid-cols-1 lg:grid-cols-4 gap-[16px] lg:gap-[24px]  justify-center relative my-[30px]">
           <div
-            class=" bg-white border border-gray-200 rounded-lg shadow w-[70%] mx-auto min-[576px]:w-[100%] aspect-[302/412] flex flex-col justify-between p-2 "
+            class=" bg-white border border-gray-200 rounded-lg shadow w-[60%] mx-auto min-[576px]:w-[100%] aspect-[302/412] flex flex-col justify-between p-2 "
             v-for="(items) in Hotels2" :key="items">
 
             <a class="h-1/2 overflow-hidden" href="#">
@@ -174,7 +174,7 @@ export default {
         <div class="flex items-center justify-between  border-b rounded-t ">
 
           <!-- Modal header -->
-          <h2 class="text-center md:text-5xl leading-loose font-bold font-['Noto_Serif_TC'] text-[24px] fontMT">推薦住宿
+          <h2 class="text-center md:text-5xl leading-loose font-bold font-['Noto_Serif_TC'] text-[24px] fontMT my-[30px] ">推薦住宿
           </h2>
           <button type="button"
             class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8  inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
